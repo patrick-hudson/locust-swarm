@@ -1,9 +1,9 @@
-ssh_key_name: aws_devel
-aws_region: us-east-1
-ami_id: ami-9eaa1cf6
+ssh_key_name: awskey
+aws_region: us-west-2
+ami_id: ami-d24c5cb3
 instance_type: t2.micro
-vpc_id: vpc-56e3b633
-subnet_id: subnet-d94a2bae 
-slave_count: 3
-cidr_ip: 10.0.0.0/16
-test_host: "https://google.com"
+vpc_id: vpc-5705be32
+subnet_id: subnet-171eaf60
+slave_count: 1
+cidr_ip: 10.10.0.0/26
+test_host: "https://www.beverlydiamonds.com"
